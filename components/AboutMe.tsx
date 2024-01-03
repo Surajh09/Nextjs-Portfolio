@@ -1,7 +1,7 @@
 "use client";
 import react from "react";
-import Link from "@/next/Link";
-import Image from "@/next/Image";
+import Link from "next/Link";
+import Image from "next/Image";
 
 
 export default function AboutMe(){

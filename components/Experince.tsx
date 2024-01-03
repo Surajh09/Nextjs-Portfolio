@@ -1,6 +1,6 @@
 "use client";
 import react from "react";
-import Image from "@/next/Image";
+import Image from "next/Image";
 
 export default function Experince() {
     return(
