@@ -5,7 +5,6 @@ import "swiper/css";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
-import { Icon } from 'react-icons';
 
 export default function Skills(){
 
