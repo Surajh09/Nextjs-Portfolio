@@ -1,8 +1,6 @@
 "use client"
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from"react";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function MultiLayerParallax(){
 
