@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 
-export default function Experince() {
+export default function Experience() {
     return(
         <><div id="experince" className="bg-inherit p-16">
         <div className="flex flex-col pb-10 items-center gap-4" id="about">

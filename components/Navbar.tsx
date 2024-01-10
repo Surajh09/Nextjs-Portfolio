@@ -1,5 +1,5 @@
 "use client"
-import { Fragment , React } from 'react'
+import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -11,11 +11,11 @@ const navigation = [
   { name: 'Experince', href: '#experince', current: false },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: any) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function NavBar(mailto, label) {
+export default function NavBar(mailto: any, label: any) {
   return (
     <Disclosure as="nav" className="bg-gradient-tt from-white/40 backdrop-blur shadow-lg shadow-blue-400 fixed w-full h-16 inset-0 z-[50]">
       {({ open }) => (

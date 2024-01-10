@@ -23,7 +23,7 @@ export default function MultiLayerParallax(){
     >
     <motion.div style={{y: textY}} className="pl-20 md:pl-40 w-full z-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[700px]">
       <motion.h1 className="text-[50px] text-white font-semibold">
-        Make anything possible it's
+        Make anything possible it &apos s
         <motion.span className="text-transparent font-open-sans bg-clip-text bg-[#113360]">
           {" "}
            Suraj Hemnani
